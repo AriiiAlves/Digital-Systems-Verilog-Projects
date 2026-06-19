@@ -1,0 +1,110 @@
+$date
+	Fri Jun 19 00:34:17 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module contador_johson_tb $end
+$var wire 5 ! cont [4:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 5 $ cont [4:0] $end
+$var wire 1 # rst $end
+$var reg 5 % cont_aux [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10000 %
+b10000 $
+1#
+0"
+b10000 !
+$end
+#5
+1"
+#10
+b11000 !
+b11000 $
+b11000 %
+0"
+0#
+#15
+1"
+#20
+b11100 !
+b11100 $
+b11100 %
+0"
+#25
+1"
+#30
+b11110 !
+b11110 $
+b11110 %
+0"
+#35
+1"
+#40
+b11111 !
+b11111 $
+b11111 %
+0"
+#45
+1"
+#50
+b1111 !
+b1111 $
+b1111 %
+0"
+#55
+1"
+#60
+b111 !
+b111 $
+b111 %
+0"
+#65
+1"
+#70
+b11 !
+b11 $
+b11 %
+0"
+#75
+1"
+#80
+b1 !
+b1 $
+b1 %
+0"
+#85
+1"
+#90
+b0 !
+b0 $
+b0 %
+0"
+#95
+1"
+#100
+b10000 !
+b10000 $
+b10000 %
+0"
+#105
+1"
+#110
+b11000 !
+b11000 $
+b11000 %
+0"

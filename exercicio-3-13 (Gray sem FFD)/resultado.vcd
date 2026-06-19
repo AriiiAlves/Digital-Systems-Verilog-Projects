@@ -1,0 +1,164 @@
+$date
+	Fri Jun 19 01:40:49 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module contador_gray_tb $end
+$var wire 6 ! cont [5:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 5 $ cont [4:0] $end
+$var reg 1 % bit1 $end
+$var reg 2 & bit2 [1:0] $end
+$var reg 3 ' bit3 [2:0] $end
+$var reg 4 ( bit4 [3:0] $end
+$var reg 5 ) bit5 [4:0] $end
+$var reg 5 * cont_aux [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 *
+b10000 )
+b1000 (
+b100 '
+b10 &
+1%
+b0 $
+1#
+0"
+b0 !
+$end
+#5
+1"
+#10
+b10001 )
+b1001 (
+b101 '
+b11 &
+0%
+0"
+0#
+#15
+1"
+#20
+b10010 )
+b1010 (
+b110 '
+b0 &
+1%
+b1 !
+b1 $
+b1 *
+0"
+#25
+1"
+#30
+b10011 )
+b1011 (
+b111 '
+b1 &
+0%
+b11 !
+b11 $
+b11 *
+0"
+#35
+1"
+#40
+b10100 )
+b1100 (
+b0 '
+b10 &
+1%
+b10 !
+b10 $
+b10 *
+0"
+#45
+1"
+#50
+b10101 )
+b1101 (
+b1 '
+b11 &
+0%
+b110 !
+b110 $
+b110 *
+0"
+#55
+1"
+#60
+b10110 )
+b1110 (
+b10 '
+b0 &
+1%
+b111 !
+b111 $
+b111 *
+0"
+#65
+1"
+#70
+b10111 )
+b1111 (
+b11 '
+b1 &
+0%
+b101 !
+b101 $
+b101 *
+0"
+#75
+1"
+#80
+b11000 )
+b0 (
+b100 '
+b10 &
+1%
+b100 !
+b100 $
+b100 *
+0"
+#85
+1"
+#90
+b11001 )
+b1 (
+b101 '
+b11 &
+0%
+b1100 !
+b1100 $
+b1100 *
+0"
+#95
+1"
+#100
+b11010 )
+b10 (
+b110 '
+b0 &
+1%
+b1101 !
+b1101 $
+b1101 *
+0"
+#105
+1"
+#110
+0"

@@ -1,0 +1,3 @@
+mkdir -p ./simulacao
+iverilog -g2012 -o ./simulacao/simulacao.vvp contador-anel_tb.v
+vvp ./simulacao/simulacao.vvp
